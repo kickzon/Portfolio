@@ -50,7 +50,7 @@ a {
     color: #76b852;
     transition: transform 0.3s;
     padding: 5px;
-    text-transform: scale(1.4);
+    transform: scale(1.4);
     text-decoration: underline;
 }
 
@@ -82,14 +82,25 @@ a {
     padding: 0 20px;
 }
 
-.projects .project {
+.project {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #0a460864;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.projects  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     background-color: #062805;
     margin-bottom: 30px;
     border-radius: 8px;
     overflow: hidden;
+    gap: 10px;
 }
 
 .projects .project img {
