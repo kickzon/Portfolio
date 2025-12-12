@@ -87,10 +87,17 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #0a460864;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     border-radius: 8px;
     overflow: hidden;
     padding: 5px;
+}
+
+.project:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .projects  {
@@ -100,7 +107,7 @@ a {
     margin-bottom: 30px;
     border-radius: 8px;
     overflow: hidden;
-    gap: 10px;
+    gap: 20px;
 }
 
 .projects .project img {
@@ -148,7 +155,7 @@ a {
 
 button {
     background-color: #76b852;
-    color: #fff;
+    color: #000000;
     border: none;
     padding: 10px;
     border-radius: 5px;
