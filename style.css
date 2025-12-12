@@ -1,0 +1,196 @@
+/* Reset och grundinställningar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #062805;
+    color: #eee;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    display: grid;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #0f200b;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    object-fit: cover;
+}
+
+.nav {
+    margin-top: 10px;
+}
+
+.nav a {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.nav:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+#site-nav a:hover {
+    color: #76b852;
+    transition: transform 0.3s;
+    padding: 5px;
+    text-transform: scale(1.4);
+    text-decoration: underline;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #19351228;
+    padding: 1%;
+    margin: 5px 0;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+.aside .icon {
+    width: 40px;
+    height: auto;
+    margin: 10px 0;
+}
+
+#site-aside img:hover {
+    transform: scale(1.4);
+    transition: transform 0.3s;
+
+}
+
+.about, .projects, .contact, .skills, .program {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.projects .project {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #062805;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.projects .project img {
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+}
+
+.projects .project-info {
+    padding: 20px;
+    flex: 1;
+}
+
+.project-info p {
+    margin-top: 10px;
+    text-wrap-mode: wrap;
+}
+
+.projects .project-info h3 {
+    margin-bottom: 10px;
+}
+
+.vscode, .sublime-text, .wordpress, .google-analytics, .elementor, .html5, .css, .javascript { 
+    padding: 2px;
+}
+
+#vscode:hover, #sublime-text:hover, #wordpress:hover, #google-analytics:hover, #elementor:hover, #html5:hover, #css:hover, #javascript:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#name, #email, #website, #phone, #subject, #message {
+    border-style: auto;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #76b852;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #5aa13f;
+    transform: scale(0.98);
+    transition: transform 0.3s;
+}
+
+#end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.bottom {
+    width: 70px;
+    height: auto;
+}
+
+.bottom:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
+
+#up {
+    width: 50px;
+    height: auto;
+    margin-right: 5px;
+    position: fixed;
+    right: 20px;
+    bottom: 65px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0f200b;
+    margin-top: 50px;
+}
+
+/* Responsiv: på smal skärm staplas projekt */
+@media (max-width: 600px) {
+    .projects .project {
+        flex-direction: column;
+  }
+
+    .projects .project img {
+        max-width: 100%;
+  }
+}
