@@ -107,6 +107,7 @@ a {
     width: 100%;
     max-width: 300px;
     object-fit: cover;
+    border-radius: 15px;
 }
 
 .projects .project-info {
