@@ -18,15 +18,15 @@ Här hittar nu mitt portfolio där kravlistan för uppgiften såg ut som följan
 
 ## ✅ Accessibility checks
 
-![chrome Lighthouse](img/a11y_lighthouse.jpg)
+![chrome Lighthouse](img/A11y_Lighthouse.jpg)
 
 
-![Firefox](img/a11y_firefox.jpg)
+![Firefox](img/A11y_firefox.jpg)
 
 
-![HTML validering](img/validering_html.jpg)
+![HTML validering](img/Validering_html.jpg)
 
 
 ## 🎨 Wireframe
 
-![Skiss](img/mitt_portfolie.jpg)
+![Skiss](img/Mitt_portfolie.jpg)
