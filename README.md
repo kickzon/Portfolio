@@ -1,6 +1,6 @@
 # 🫆 Mitt portfolio
 
-Här hittar nu mitt portfolio där kravlistan för uppgiften såg ut som följande:
+Här hittar ni mitt portfolio där kravlistan för uppgiften såg ut som följande:
 
   
 
